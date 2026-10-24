@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5efe7"><meta name="description" content="A little corner made with love, just for Dada.">
+<title>Dada's Little Corner ♡</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="paper-grain" aria-hidden="true"></div>
+<header class="topbar"><a class="wordmark" href="#welcome" aria-label="Back to welcome">♡ <span>Dada's little corner</span></a><span class="tiny-label">MADE WITH LOVE</span></header>
+<main>
+<section class="page active" id="welcome" aria-labelledby="welcome-title">
+  <div class="hero-card">
+    <div class="eyebrow"><span class="tiny-flower">✿</span> A LITTLE SOMETHING FOR YOU</div>
+    <div class="hero-heart" aria-hidden="true">♡</div>
+    <h1 id="welcome-title">For my <em>Dada.</em></h1>
+    <p class="hero-subtitle">No special occasion.<br>Just because you matter.</p>
+    <div class="handwritten">He sagla tuzyasathi. Fakt tu important ahes. 🤍</div>
+    <button class="primary-btn" data-go="notes">Open your little surprise <span>↗</span></button>
+    <p class="microcopy">A few notes, little memories, and lots of love.</p>
+  </div>
+</section>
+<section class="page" id="notes" aria-labelledby="notes-title">
+  <div class="section-head"><div class="eyebrow">01 / LITTLE REMINDERS</div><h2 id="notes-title">Dada's little <em>corner</em></h2><p>Pick whichever note feels right today. No need to read them all at once. ♡</p></div>
+  <div class="notes-grid" id="notes-grid"></div>
+</section>
+<section class="page" id="memories" aria-labelledby="memories-title">
+  <div class="section-head"><div class="eyebrow">02 / OUR LITTLE WORLD</div><h2 id="memories-title">Our little <em>memories</em></h2><p>Different days, different versions of you — still my Dada. 🤍</p></div>
+  <div class="memory-grid">
+    <article class="memory-card memory-placeholder"><div class="memory-art" aria-hidden="true">♡<span>little moments</span></div><div class="memory-caption"><span>US, JUST BEING US</span><p>Some memories are better kept between us. ❤️</p></div></article>
+    <article class="memory-card memory-placeholder"><div class="memory-art art-two" aria-hidden="true">✿<span>the little days</span></div><div class="memory-caption"><span>THE LITTLE YOU</span><p>Once little, now growing up — still my Dada. 🥹</p></div></article>
+    <article class="memory-card memory-placeholder"><div class="memory-art art-three" aria-hidden="true">✧<span>then & now</span></div><div class="memory-caption"><span>OUR LITTLE WORLD</span><p>No photos needed for the memories to matter. 🫶🏻</p></div></article>
+  </div>
+  <p class="memory-note">No personal photos are included on this page — just private little reminders of your bond. 🤍</p>
+</section>
+<section class="page" id="letter" aria-labelledby="letter-title">
+  <div class="letter-sheet"><div class="eyebrow">03 / FROM YOUR LITTLE SISTER</div><h2 id="letter-title">A letter for <em>Dada</em> ♡</h2><div id="letter-content" class="long-message"></div><div class="letter-end">with love, always <span>♡</span></div></div>
+</section>
+<section class="page" id="last" aria-labelledby="last-title">
+  <div class="last-card"><div class="eyebrow">04 / BEFORE YOU GO</div><div class="hero-heart" aria-hidden="true">♡</div><h2 id="last-title">One last <em>surprise.</em></h2><div id="last-content" class="long-message"></div><button class="primary-btn" data-go="welcome">Back to the beginning <span>↺</span></button></div>
+</section>
+</main>
+<footer class="site-footer"><span>Made for Dada, by his little sister</span><span>♡</span></footer>
+<nav class="page-nav" aria-label="Website pages"><button id="back-btn" class="nav-btn" type="button">← Back</button><span id="page-count">Welcome</span><button id="next-btn" class="nav-btn" type="button">Next →</button></nav>
+<div class="modal-backdrop" id="note-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="modal-card"><button class="modal-close" id="modal-close" aria-label="Close note">×</button><div class="modal-flower">✿</div><div class="eyebrow">A LITTLE REMINDER FOR YOU</div><h2 id="modal-title"></h2><div id="modal-body" class="long-message"></div><div class="modal-footer"><span id="modal-index"></span><button class="text-btn" id="next-note">Next note →</button></div></div></div>
+<script src="script.js"></script>
+</body></html>
